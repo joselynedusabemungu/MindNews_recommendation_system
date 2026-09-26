@@ -1,0 +1,13 @@
+# Local environment and cache files
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Local data directories (avoid uploading large files)
+data/raw/
+data/extracted/
+data/artifacts/
+
+# SQLite or other local databases
+*.db
